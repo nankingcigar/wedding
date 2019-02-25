@@ -1,15 +1,47 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Chao & June Wedding">
+    <meta name="author" content="Chao">
+    <META NAME="ROBOTS" CONTENT="NOINDEX">
     <meta name="theme-color" content="#000000">
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <!--
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    -->
+    <link rel="shortcut icon" href="%REACT_APP_VENDOR_IMAGE%/favicon.jpg">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="%REACT_APP_VENDOR_CSS%/bootstrap/bootstrap.min.css" type="text/css" media="screen" />
+
+    <!-- Pace -->
+    <link rel="stylesheet" href="%REACT_APP_VENDOR_CSS%/preloader.css" media="screen">
+    <link rel="stylesheet" href="%REACT_APP_VENDOR_CSS%/preloader-default.css" media="screen">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="%REACT_APP_VENDOR_CSS%/flexslider/flexslider.css" type="text/css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="%REACT_APP_VENDOR_CSS%/animate/animate.css" type="text/css">
+    <!-- Countdown -->
+    <link rel="stylesheet" href="%REACT_APP_VENDOR_CSS%/countdown/jquery.countdown.css" type="text/css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="%REACT_APP_VENDOR_CSS%/magnific-popup/magnific-popup.css" type="text/css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="%REACT_APP_VENDOR_CSS%/owlcarousel/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="%REACT_APP_VENDOR_CSS%/owlcarousel/owl.theme.css" type="text/css">
+    <!-- Icon -->
+    <link rel="stylesheet" href="%REACT_APP_VENDOR_CSS%/fonts/fontello/css/fontello.css" type="text/css" media="screen" />
+    <!-- Font -->
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="%REACT_APP_VENDOR_CSS%/style.css" rel="stylesheet" media="screen">
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -19,11 +51,27 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
-  <body>
+    <title>Chao & June Wedding</title>
+</head>
+<body class="outside-bottom-bar-page">
+    <!--PRELOADER-->
+    <div id="preloader">
+        <div class="alignment">
+            <div class="v-align center-middle">
+                <!-- LEFT HEART -->
+                <div class="heart-animation">
+                    <i class="de-icon-heart"></i>
+                </div>
+                <!-- RIGHT HEART -->
+                <div class="heart-animation-reverse">
+                    <i class="de-icon-heart"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END of PRELOADER-->
     <noscript>
-      You need to enable JavaScript to run this app.
+        You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
     <!--
@@ -36,5 +84,52 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+    <!-- jQuery -->
+    <script src="%REACT_APP_VENDOR_JS%/jquery-1.11.1.min.js"></script>
+    <!-- Pace -->
+    <script src="%REACT_APP_VENDOR_JS%/pace/pace.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="%REACT_APP_VENDOR_JS%/bootstrap/bootstrap.js"></script>
+    <!-- Modernizr -->
+    <script src="%REACT_APP_VENDOR_JS%/modernizr/modernizr.js"></script>
+    <!-- Device JS -->
+    <script src="%REACT_APP_VENDOR_JS%/devicejs/device.js"></script>
+    <!-- TinyNav -->
+    <script src="%REACT_APP_VENDOR_JS%/tinynav/tinynav.min.js"></script>
+    <!-- SmoothScroll -->
+    <script src="%REACT_APP_VENDOR_JS%/smoothscroll/jquery.smooth-scroll.js"></script>
+    <!-- Flexslider -->
+    <script src="%REACT_APP_VENDOR_JS%/flexslider/jquery.flexslider.js"></script>
+    <!-- Sticky -->
+    <script src="%REACT_APP_VENDOR_JS%/sticky/jquery.sticky.js"></script>
+    <!-- Waypoint -->
+    <script src="%REACT_APP_VENDOR_JS%/waypoint/jquery.waypoints.min.js"></script>
+    <!-- DoubleTapToGo -->
+    <script src="%REACT_APP_VENDOR_JS%/jquery-ui-widget/jquery.ui.widget.js"></script>
+    <script src="%REACT_APP_VENDOR_JS%/jquery-doubletaptogo/jquery.dcd.doubletaptogo.js"></script>
+    <!-- Vide -->
+    <script src="%REACT_APP_VENDOR_JS%/vide/jquery.vide.js"></script>
+    <!-- Stellar -->
+    <script src="%REACT_APP_VENDOR_JS%/stellar/jquery.stellar.js"></script>
+    <!-- Masonry -->
+    <script src="%REACT_APP_VENDOR_JS%/masonry/masonry.pkgd.min.js"></script>
+    <!-- Countdown -->
+    <script src="%REACT_APP_VENDOR_JS%/countdown/jquery.plugin.js"></script>
+    <script src="%REACT_APP_VENDOR_JS%/countdown/jquery.countdown.js"></script>
+    <!-- Magnific Popup -->
+    <script src="%REACT_APP_VENDOR_JS%/magnific-popup/jquery.magnific-popup.js"></script>
+    <!-- Owl Carousel -->
+    <script src="%REACT_APP_VENDOR_JS%/owlcarousel/owl.carousel.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="%REACT_APP_VENDOR_JS%/markerlabel/markerwithlabel.js"></script>
+    <!-- RSVP -->
+    <script src="%REACT_APP_VENDOR_JS%/rsvp/rsvp.js"></script>
+
+    <!-- Custom Core Script -->
+    <script type="text/javascript" src="%REACT_APP_VENDOR_JS%/script.js"></script>
+    <script type="text/javascript" src="%REACT_APP_VENDOR_JS%/map-script.js"></script>
+    <!-- Custom Additional Script -->
+    <script type="text/javascript" src="%REACT_APP_VENDOR_JS%/main-slider-fade.js"></script>
+</body>
 </html>
