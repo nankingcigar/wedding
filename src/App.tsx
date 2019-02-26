@@ -1,19 +1,29 @@
-import * as React from 'react';
-import './App.css';
+/*
+ * @Author: Chao Yang 
+ * @Date: 2019-02-26 10:23:25 
+ * @Last Modified by: Chao Yang
+ * @Last Modified time: 2019-02-26 11:40:24
+ */
 
-import logo from './logo.svg';
+import * as React from 'react';
+
+import { 
+  MainSlider, 
+  PreLoader
+} from './component';
+
+import './App.css';
 
 class App extends React.Component {
   public render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+      <div>
+        {/* <!--PRELOADER--> */}
+        <PreLoader />
+        {/* <!--END of PRELOADER--> */}
+        {/* <!--MAIN SLIDER--> */}
+        <MainSlider />
+        {/* <!--END of MAIN SLIDER--> */}
       </div>
     );
   }
