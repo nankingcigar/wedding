@@ -1,9 +1,27 @@
 {
     "main_slider": {
         "title_outter_wrapper": {
-            "You_re_Invited": "很荣幸邀请您",
-            "We_Are_Getting_Married": "我们准备结婚了",
-            "Date": "- 07 / 20 / 2019 -"
+            "You_re_Invited": "You're Invited.",
+            "We_Are_Getting_Married": "WE ARE GETTING MARRIED",
+            "Date": "- JULY / 20TH / 2019 -"
+        },
+        "navigation": {
+            "Home": "首页",
+            "Story": "故事",
+            "WhereWhen": "地点和时间",
+            "Gallery": "相册",
+            "Events": "活动",
+            "Groomsmen": "伴郎",
+            "Bridesmaid": "伴娘",
+            "Rsvp": "请回复"
         }
+    },
+    "content_section": {
+
+    },
+    "footer": {
+        "Thank": "Thank",
+        "Your": "Your",
+        "Signature": "June & Chao"
     }
 }

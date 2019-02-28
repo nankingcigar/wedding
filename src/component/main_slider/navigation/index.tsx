@@ -2,10 +2,11 @@
  * @Author: Chao Yang 
  * @Date: 2019-02-26 17:07:59 
  * @Last Modified by: Chao Yang
- * @Last Modified time: 2019-02-27 18:17:18
+ * @Last Modified time: 2019-02-28 12:41:21
  */
 import * as React from 'react';
 import { Trans, withTranslation } from 'react-i18next';
+import { MainSliderNavigationDictionary as key } from '../../../const/locale';
 import LocaleComponentBase from '../../locale';
 import './index.less';
 
@@ -18,7 +19,7 @@ class MainSliderNavigation extends LocaleComponentBase{
                         {/* <!-- LOGO --> */}
                         <div className="logo-wrapper">
                             {/* <!-- CSS LOGO -->  */}
-                                <a href="index.html">
+                                <a href="#">
                                     <div className="css-logo rounded">
                                         <div className="css-logo-text">
                                             <strong className="strong1">
@@ -46,44 +47,58 @@ class MainSliderNavigation extends LocaleComponentBase{
                         <ul id="nav-menu" className="nav-smooth-scroll">
                             <li className="first-child">
                                 <a href="#main-slider">
-                                    <Trans>
+                                    <Trans i18nKey={key.Home}>
                                         HOME
                                     </Trans>
                                 </a>
                             </li>
                             <li>
                                 <a href="#our-story">
-                                    STORY
+                                    <Trans i18nKey={key.Story}>
+                                        STORY
+                                    </Trans>
                                 </a>
                             </li>
                             <li>
                                 <a href="#where-when">
-                                    WHERE &amp; WHEN
+                                    <Trans i18nKey={key.WhereWhen}>
+                                        WHERE &amp; WHEN
+                                    </Trans>
                                 </a>
                             </li>
                             <li>
                                 <a href="#gallery-section">
-                                    GALLERY
+                                    <Trans i18nKey={key.Gallery}>
+                                        GALLERY
+                                    </Trans>
                                 </a>
                             </li>
                             <li className="first-child split-margin">
                                 <a href="#more-events">
-                                    EVENTS
+                                    <Trans i18nKey={key.Events}>
+                                        EVENTS
+                                    </Trans>
                                 </a>
                             </li>
                             <li>
                                 <a href="#groomsmen-section">
-                                    GROOMSMEN
+                                    <Trans i18nKey={key.Groomsmen}>
+                                        GROOMSMEN
+                                    </Trans>
                                 </a>
                             </li>
                             <li>
                                 <a href="#bridesmaid-section">
-                                    BRIDESMAID
+                                    <Trans i18nKey={key.Bridesmaid}>
+                                        BRIDESMAID
+                                    </Trans>
                                 </a>
                             </li>
                             <li>
                                 <a href="#rsvp-section">
-                                    RSVP
+                                    <Trans i18nKey={key.Rsvp}>
+                                        RSVP
+                                    </Trans>
                                 </a>
                             </li>
                         </ul>

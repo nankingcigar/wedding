@@ -4,6 +4,24 @@
             "You_re_Invited": "You're Invited.",
             "We_Are_Getting_Married": "WE ARE GETTING MARRIED",
             "Date": "- JULY / 20TH / 2019 -"
+        },
+        "navigation": {
+            "Home": "HOME",
+            "Story": "STORY",
+            "WhereWhen": "WHERE & WHEN",
+            "Gallery": "GALLERY",
+            "Events": "EVENTS",
+            "Groomsmen": "GROOMSMEN",
+            "Bridesmaid": "BRIDESMAID",
+            "Rsvp": "RSVP"
         }
+    },
+    "content_section": {
+
+    },
+    "footer": {
+        "Thank": "Thank",
+        "Your": "Your",
+        "Signature": "June & Chao"
     }
 }
