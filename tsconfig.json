@@ -29,6 +29,7 @@
     "src/setupTests.ts",
     "public/vendor",
     "public/config",
-    "config-overrides.js"
+    "config-overrides.js",
+    "onepage"
   ]
 }
