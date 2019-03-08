@@ -1,17 +1,12 @@
 /*
- * @Author: Chao Yang 
- * @Date: 2019-02-26 10:23:25 
+ * @Author: Chao Yang
+ * @Date: 2019-03-08 09:15:02
  * @Last Modified by: Chao Yang
- * @Last Modified time: 2019-02-28 15:34:29
+ * @Last Modified time: 2019-03-08 16:45:55
  */
-import * as React from 'react';
-import './App.css';
-import { 
-  ContentSection,
-  Footer,
-  MainSlider, 
-  PreLoader
-} from './component';
+import * as React from "react";
+import "./App.less";
+import { ContentSection, Footer, MainSlider, PreLoader } from "./component";
 
 class App extends React.Component {
   public render() {
